@@ -1,6 +1,10 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif;
+  font-size: 16px; */
   font-size: 16px;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 textarea {
@@ -10,22 +14,35 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  width: 100%;
+  height: 100%;
 }
 
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
 .description {
   white-space: pre-wrap;
 }
 
 .time-block {
+  text-align: center;
   border-radius: 15px;
 }
 
 .row {
+  white-space: pre-wrap;
+  height: 80px;
   border-top: 1px solid white;
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #818181;
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -56,4 +73,18 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+/* .p-5 mb-4 {
+ margin: center;
+} */
+
+.time {
+  background-color: #ff6961;
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px ;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
 }
