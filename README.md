@@ -14,4 +14,4 @@ I had challenges with defining all variables, but think think my biggest challen
 What makes this project stand out is that it has the date and keeps up with the time of date and it knows the current time, what time has passed and it knows the future time up to 5:00pm.  It saves your daily task.
 
 My git hub link is: 
-![Alt text](image-2.png)
+![Alt text](image.png)
